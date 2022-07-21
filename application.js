@@ -33,21 +33,10 @@ const onSubmit = (e) => {
         document.getElementById("data").innerHTML = '<p>Please enter all fields</p>'
     } else {
     document.getElementById("data").innerHTML = `
-    <p>Name: ${firstName.value} ${lastName.value}</p><p>Age: ${age.value}</p><p>Gender: ${getSelectedGender().value}</p><p>State: ${getSelectedState().value}</p><p>Course: ${getSelectedCourses()}</p>
+    <p>Name: ${firstName.value} ${lastName.value}</p><p>Age: ${age.value}</p><p>Gender: ${getSelectedGender().value}</p><p>State: ${getSelectedState().value}</p><p>Courses: ${getSelectedCourses().join(", ")}</p>
     `
     }
     
 }
 
 myForm.addEventListener("submit", onSubmit)
-
-
-
-
-
-
-
-// document.querySelector("#firstname").addEventListener("input", (e) => {
-    
-//     console.log(firstName.value)
-// })
