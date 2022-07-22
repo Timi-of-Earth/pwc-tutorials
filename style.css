@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: black;
-    background-color: grey;
+    background-color: #CECECE;
   }
 
 table, th, td {
@@ -37,7 +37,7 @@ ul li {
 
 .container {
     margin: auto;
-    width: 500px;
+    width: 650px;
     overflow: auto;
     padding: 3rem 2rem;
 }
@@ -45,8 +45,13 @@ ul li {
 .my-form {
     padding: 2rem;
     background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #777;
 }
 
+.lastname {
+    padding-left: 15px;
+}
 .btn {
     display: block;
     width: 100%;
